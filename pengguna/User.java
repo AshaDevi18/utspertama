@@ -13,5 +13,10 @@ public string getUsername(){
     return this.username;
 }
 
-public void setPassword(string paasword)
+public void setPassword(string password){
+    this.password = password;
+}
+ 
+ public String setPassword(get password){
+    return this.password;
 }
