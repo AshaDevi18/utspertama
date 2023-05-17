@@ -1,22 +1,19 @@
 package pengguna;
 
 public class User {
+    private String username;
+    private String password;
 
-private String username;
-private String password;
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
 
-public void setUsername(String username){
-    this.Username = username;
-}
+    public String getUsername() {
+        return this.username;
+    }
 
-public string getUsername(){
-    return this.username;
-}
-
-public void setPassword(string password){
-    this.password = password;
-}
- 
- public String setPassword(get password){
-    return this.password;
+    public String getPassword() {
+        return this.password;
+    }
 }
